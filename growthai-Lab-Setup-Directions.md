@@ -34,9 +34,19 @@ Scan the qr to find Proton Mail on the App Store, or [use this link](https://app
 4. Sign in with Account 1 (`fn.ln.ailab@howdengroup.com`).
 5. Launch your Cloud PC.
 
-> !!! From here on, do everything inside your Windows 365 Cloud PC.
+# !!! From here on, do everything inside your Windows 365 Cloud PC.
 
 ## 3. Activate Claude and Claude Code
+
+### Install Google Chrome
+1. Press Start, type `PowerShell`, and open it.
+2. Paste and run this command:
+    ```
+    winget install Google.Chrome
+    ```
+    *(or use `winget find [browsername]` to install your preferred <ins>chrome-based</ins> browser)*
+3. Type `Y` to accept winget terms if prompted.
+4. Follow installation prompts and launch Google Chrome
 
 ### Accept the Claude team invite
 
@@ -50,19 +60,16 @@ Scan the qr to find Proton Mail on the App Store, or [use this link](https://app
 2. Download "Claude for Windows."
 3. Run the installer.
 4. Open Claude and login using your `@growthailab.uk` address.
-5. 5. 
 
 ### Install Claude Code
 
-1. Press Start, type `PowerShell`, and open it.
-2. Paste and run this command:
+1. Copy this command and run it in Powershell:
     ```
     winget install Anthropic.ClaudeCode
     ```
-3. Type `Y` to accept winget terms if prompted.
-4. Close and reopen PowerShell.
-5. Run `claude` to confirm installation.
-6. Follow the prompts to authenticate Claude Code.
+2. Close and reopen PowerShell.
+3. Run `claude` to confirm installation.
+4. Follow the prompts to authenticate Claude Code.
 
 ## 4. Install Obsidian and create a vault
 
